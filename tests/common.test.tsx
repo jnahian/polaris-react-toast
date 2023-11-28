@@ -5,7 +5,7 @@ import "jest-canvas-mock"
 
 import { ToastProvider } from "../src"
 
-describe("Common render", () => {
+describe("ToastProvider render", () => {
   it("renders without crashing", () => {
     render(
       <ToastProvider>
