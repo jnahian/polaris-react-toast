@@ -1,6 +1,6 @@
 {
   "name": "polaris-react-toaster",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Toast messaging using @shopify/polaris UI with build for shopify guidelines.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
