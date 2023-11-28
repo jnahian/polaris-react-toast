@@ -25,7 +25,7 @@ import React from 'react';
 import { ToastProvider } from 'polaris-react-toaster';
 import MyComponent from './MyComponent';
 
-function App({children}) {
+function App() {
   return (
     <ToastProvider>
       <MyComponent />
@@ -48,7 +48,16 @@ const MyComponent = () => {
   const { addToast } = useToast();
 
   const showToast = () => {
-    addToast('Hello, this is a toast message!');
+    addToast({
+      content: "Hello! This is a toast message.",
+      action: {
+        content: "undo",
+        onAction() {
+          console.log("undo clicked");
+        },
+      },
+      duration: 10000,
+    });
   };
 
   return (
