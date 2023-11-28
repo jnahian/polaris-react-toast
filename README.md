@@ -5,6 +5,10 @@ Toast messaging using `@shopify/polaris` UI with build for shopify guidelines.
 
 To use the `polaris-react-toaster` package, you need to install it in your React project.
 
+## Demo
+[Demo.mp4](https://github.com/jnahian/polaris-react-toast/assets/11865446/73893410-acee-4b2d-a796-f18852d95358)
+
+
 ### npm
 ```bash
 npm install polaris-react-toaster
