@@ -1,0 +1,71 @@
+{
+  "name": "polaris-react-toaster",
+  "version": "1.0.0",
+  "description": "Toast messaging using @shopify/polaris UI with build for shopify guidelines.",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "lint": "eslint \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
+    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run prettier && npm run lint",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnahian/polaris-react-toast.git"
+  },
+  "keywords": [
+    "polaris",
+    "react",
+    "polaris-toast",
+    "react-toast"
+  ],
+  "author": "Julkar N. Nahian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnahian/polaris-react-toast/issues"
+  },
+  "homepage": "https://github.com/jnahian/polaris-react-toast#readme",
+  "peerDependencies": {
+    "react": ">=16",
+    "@shopify/polaris": ">=12"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@shopify/polaris": "^12.1.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^29.5.10",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
+    "jest-canvas-mock": "^2.5.2",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2",
+    "web-vitals": "^2.1.0"
+  }
+}
