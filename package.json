@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jnahian/polaris-react-toast.git"
+    "url": "git+https://github.com/jnahian/polaris-react-toaster.git"
   },
   "keywords": [
     "polaris",
@@ -28,9 +28,9 @@
   "author": "Julkar N. Nahian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jnahian/polaris-react-toast/issues"
+    "url": "https://github.com/jnahian/polaris-react-toaster/issues"
   },
-  "homepage": "https://github.com/jnahian/polaris-react-toast#readme",
+  "homepage": "https://github.com/jnahian/polaris-react-toaster#readme",
   "peerDependencies": {
     "react": ">=16",
     "@shopify/polaris": ">=12"
@@ -40,6 +40,9 @@
     "LICENSE",
     "README.md"
   ],
+  "dependencies": {
+    "@shopify/polaris": "^12.1.1"
+  },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@shopify/polaris": "^12.1.1",

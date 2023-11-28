@@ -1,4 +1,9 @@
 # Polaris React Toast
+[![NPM version][npm-image]][npm-url]
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/jnahian/polaris-react-toaster/publish.yml)
+![npm-typescript]
+[![License][github-license]][github-license-url]
+
 Toast messaging using `@shopify/polaris` UI with build for shopify guidelines.
 
 ## Installation
@@ -83,3 +88,13 @@ This package is licensed under the MIT License - see the `LICENSE` file for deta
 ### Acknowledgments
 
 This package is inspired by the Shopify Polaris Toast component.
+
+
+
+[npm-url]: https://www.npmjs.com/package/polaris-react-toaster
+[npm-image]: https://img.shields.io/npm/v/polaris-react-toaster
+[github-license]: https://img.shields.io/github/license/jnahian/polaris-react-toaster
+[github-license-url]: https://github.com/jnahian/polaris-react-toaster/blob/master/LICENSE
+[github-build]: https://github.com/jnahian/polaris-react-toaster/actions/workflows/publish.yml/badge.svg
+[github-build-url]: https://github.com/jnahian/polaris-react-toaster/actions/workflows/publish.yml
+[npm-typescript]: https://img.shields.io/npm/types/polaris-react-toaster
