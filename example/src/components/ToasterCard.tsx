@@ -1,4 +1,4 @@
-import { BlockStack, Box, Button, Card, Divider, Text } from "@shopify/polaris"
+import { BlockStack, Box, Button, Card, Text } from "@shopify/polaris"
 import React from "react"
 
 interface ToasterCardProps {
