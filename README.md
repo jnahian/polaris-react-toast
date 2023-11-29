@@ -29,7 +29,7 @@ yarn add polaris-react-toaster
 ### 1. Import `ToastProvider`
 Wrap your main `App` component with the `ToastProvider` to make toast functionality available throughout your app.
 
-```bash
+```js
 // App.jsx
 
 import React from 'react';
@@ -49,7 +49,7 @@ export default App;
 ```
 
 ### 2. Import and Use `useToast` Hook
-```bash
+```js
 // MyComponent.jsx
 import React from 'react';
 import { Button } from '@shopify/polaris';
@@ -71,11 +71,7 @@ const MyComponent = () => {
     });
   };
 
-  return (
-    <div>
-      <Button onClick={showToast}>Show Toast</Button>
-    </div>
-  );
+  return <Button onClick={showToast}>Show Toast</Button>;
 };
 
 export default MyComponent;
